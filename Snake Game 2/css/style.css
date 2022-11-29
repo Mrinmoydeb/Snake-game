@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#scoreContainer{
+    display: flex;
+    
+   
+    margin: 20px;
+    border-radius: 10px;
+    padding: 6px;
+    gap:100px ;
+}
+#scoreBox{
+    background-color:  rgb(241, 238, 170);
+    border-radius: 10px;
+   font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#HigestScore{
+    border-radius: 10px;
+    background-color:  rgb(241, 238, 170);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.outerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(37, 214, 161);
+    height: 100vh;
+    width: 100%;
+    
+}
+#mainbox{
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    background-color: rgb(241, 238, 170);
+    height: 90vmin;
+    width: 90vmin;
+    border: 3px solid rgb(53, 52, 52);
+}
+
+.snakebody{
+    background-color: rgb(237, 190, 37);
+    border-radius: 15%;
+    border: 2px solid rgb(27, 26, 26);
+}
+.snakehead{
+    transform: scale(1.2);
+    background-color: red;
+    border-radius: 30%;
+    border: 2px solid rgb(88, 53, 53);
+
+    
+}
+.food{
+    transform: scale(-0.8);
+    background-color: rgb(12, 12, 12);
+    border-radius: 50%;
+    /* border: 3px solid rgb(255, 253, 253); */
+}
+#Btn{
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(241, 238, 170);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
